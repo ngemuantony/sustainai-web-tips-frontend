@@ -33,7 +33,7 @@ const Home = () => {
 
     try {
       // Make API request to backend
-      const response = await axios.post('http://localhost:5000/api/tips', {
+      const response = await axios.post('https://sustainai-web-tips-backend.onrender.com/api/tips', {
         location,
         habits,
       });
